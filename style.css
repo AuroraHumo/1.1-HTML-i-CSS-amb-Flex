@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+}
+
+.flexbox-container1{
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  margin: 10px;
+}
+
+.inline-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  gap: 10px; 
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo{
+  width: 25%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: small;
+  padding: 10px;
+  background-color: #e63946;
+}
+
+.nav{
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: small;
+  padding: 10px;
+  background-color: #e63946;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+  background-color: yellow;
+
+}
+
+.flexbox-container2{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  margin: 10px;
+}
+
+.container2-primero {
+  gap: 10px; 
+  padding: 10px;
+  margin: 10px;
+  width: 75%;
+}
+
+.container2-segundo {
+  
+  gap: 10px; 
+  padding: 10px;
+  margin: 10px;
+  width: 25%;
+  
+}
+
+.container-article {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: space-around; 
+  
+}
+
+.article{
+  width: 45%;
+  font-size: small;
+  padding: 10px;
+  background-color: #4c31c5;
+}
+
+.navegacion{
+  
+  justify-content: left;
+  align-items: center;
+  font-size: small;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #9fc7ec;
+}
+
+.publicidad{
+  
+  font-size: small;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f3e66f;
+  height: min-content;
+
+}
+
+.pie{
+  font-size: small;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e4d657;
+  height: min-content;
+}
+
+
+.red {
+  background-color: #e63946;
+}
+.blue {
+  background-color: #1d3557;
+}
+.green {
+  background-color: #2a9d8f;
+}
+.yellow {
+  background-color: #e5f461;
+}
+.purple {
+  background-color: #6a4c93;
+}
+.grey {
+  background-color: #6d6d6d;
+}
+.orange {
+  background-color: #f7a059;
+}
