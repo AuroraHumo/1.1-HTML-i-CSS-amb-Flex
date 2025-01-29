@@ -42,9 +42,14 @@ body {
     font-size: small;
     padding: 10px;
     background-color: #e63946;
+    transition: transform 0.5s;
   }
+  .logo:hover {
+    background-color: palevioletred;
+    transform: scale(1.05);
+    }
 
-  .nav{
+  .nav {
     width: 50%;
     justify-content: left;
     color: rgb(0, 0, 0);
@@ -63,10 +68,9 @@ body {
     font-size: large;
     padding: 10px;
     background-color: yellow;
-
   }
 
-  .flexbox-container2{
+  .flexbox-container2 {
     display: flex;
     background-color: rgb(0, 0, 0);
     padding: 5px;
@@ -85,16 +89,13 @@ body {
     padding: 10px;
     margin: 10px;
     width: 25%;
-    
   }
 
   .container-article {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 10px;
-   /*  justify-content:space-between */ 
-    
+    margin-top: 10px;   
   }
 
   .article{
@@ -105,7 +106,6 @@ body {
   }
 
   .navegacion{
-    
     justify-content: left;
     align-items: center;
     font-size: small;
@@ -116,13 +116,11 @@ body {
   }
 
   .publicidad{
-    
     font-size: small;
     padding: 10px;
     margin: 10px;
     background-color: #f3e66f;
     height: min-content;
-
   }
 
   .pie{
@@ -132,9 +130,6 @@ body {
     background-color: #e4d657;
     height: min-content;
   }
-
-
-
 
 .red {
   background-color: #e63946;
