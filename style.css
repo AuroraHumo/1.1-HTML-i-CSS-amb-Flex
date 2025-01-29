@@ -6,10 +6,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body { background-color: #2a9d8f !important;}
   .article { width: 100% !important;}
 }
 
 @media only screen and (max-width: 768px) {
+  body { background-color: #f03a3a;}
+
   .inline-container {
     display: flex;
     flex-direction: column;
